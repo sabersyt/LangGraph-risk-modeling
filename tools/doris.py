@@ -26,11 +26,11 @@ MAX_ROWS = 50_000
 
 def _get_conn(database: Optional[str] = None) -> pymysql.Connection:
     cfg = {
-        "host": "10.1.19.245",
-        "port": 9030,
-        "user": "mxsf",
-        "password": "mxsf@Wx_cd2023",
-        "database": "sample_pool",
+        "host": "****",
+        "port": ***,
+        "user": "***",
+        "password": "***",
+        "database": "表名",
         "charset": "utf8mb4"
     }
     if database:
